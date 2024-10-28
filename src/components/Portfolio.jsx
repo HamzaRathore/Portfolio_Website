@@ -30,12 +30,12 @@ const Portfolio = () => {
             href:'https://github.com/HamzaRathore'
         },
         {
-            id:4,
+            id:5,
             src:spotify,
             href:'https://github.com/HamzaRathore'
         },
         {
-            id:5,
+            id:6,
             src:weather,
             href:'https://github.com/HamzaRathore'
         },
