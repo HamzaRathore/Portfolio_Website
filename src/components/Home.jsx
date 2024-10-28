@@ -2,6 +2,7 @@ import React from "react";
 import my from "../assets/MyImage.jpg";
 import AnimatedSection from './AnimatedSection';
 import { MdKeyboardArrowRight } from "react-icons/md";
+import { Link } from 'react-scroll';
 const Home = () => {
   return (
     <div name="home" className="h-screen w-full bg-gradient-to-b from-yellow-400 via-black to-gray-700 pt-20">
@@ -14,11 +15,14 @@ const Home = () => {
             HTML, CSS, Tailwind, JavaScript, and React.
           </p>
           <div>
-            <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-black to to-gray-700 cursor-pointer ">Portfolio
+            <Link to="portfolio"
+               smooth
+               duration={500}
+            className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-black to to-gray-700 cursor-pointer ">Portfolio
                 <span className="group-hover:rotate-90 duration-300">
                     <MdKeyboardArrowRight size={25}/>
                 </span>
-            </button>
+            </Link>
           </div>
         </div>
         <div>
