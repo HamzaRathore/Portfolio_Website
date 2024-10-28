@@ -71,7 +71,18 @@ function NavBar() {
               key={id}
               className="px-4 cursor-pointer capitalize py-6 text-4xl"
             >
-              {link}
+              <Link
+              onClick={()=>(
+                setNav(false)
+              )} 
+           to= {link} 
+           smooth 
+           duration={500}
+           spy={true} 
+           activeClass="text-white"
+           >
+            {link}
+             </Link>
             </li>
           ))}
         </ul>
