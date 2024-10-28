@@ -25,10 +25,10 @@ const AnimatedSection = ({ children, direction = 'left', delay = 0 }) => {
 
   const getInitialTransform = () => {
     switch (direction) {
-      case 'left': return 'translateX(-300px)';  // Increased from -100px
-      case 'right': return 'translateX(300px)';  // Increased from 100px
-      case 'up': return 'translateY(300px)';     // Increased from 100px
-      case 'down': return 'translateY(-300px)';  // Increased from -100px
+      case 'left': return 'translateX(-300px)';  
+      case 'right': return 'translateX(300px)';  
+      case 'up': return 'translateY(300px)';     
+      case 'down': return 'translateY(-300px)';  
       default: return 'translateX(-300px)';
     }
   };
