@@ -37,7 +37,7 @@ const Portfolio = () => {
         {
             id:6,
             src:weather,
-            href:'https://github.com/HamzaRathore'
+            href:'https://github.com/HamzaRathore/Weather-app'
         },
     ]
   return (
