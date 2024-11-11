@@ -2,7 +2,8 @@ import React from 'react'
 import gym from '../assets/portfolio/gym.png'
 import car from '../assets/portfolio/rent-car.png'
 import donut from '../assets/portfolio/donut-shop.png'
-import portfolio from '../assets/portfolio/port.png'
+// import portfolio from '../assets/portfolio/port.png'
+import grocery from '../assets/portfolio/Grocery.png'
 import spotify from '../assets/portfolio/Spotify-clone.png'
 import weather from '../assets/portfolio/reactWeather.jpg'
 import AnimatedSection from './AnimatedSection';
@@ -26,8 +27,8 @@ const Portfolio = () => {
         },
         {
             id:4,
-            src:portfolio,
-            href:'https://github.com/HamzaRathore/Portfolio_Website'
+            src:grocery,
+            href:'https://github.com/HamzaRathore/Grocery-Store-Website'
         },
         {
             id:5,
@@ -37,7 +38,7 @@ const Portfolio = () => {
         {
             id:6,
             src:weather,
-            href:'https://github.com/HamzaRathore/Weather-app'
+            href:'https://github.com/HamzaRathore'
         },
     ]
   return (
