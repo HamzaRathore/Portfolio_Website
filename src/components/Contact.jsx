@@ -16,7 +16,7 @@ const Contact = () => {
        {/* <AnimatedSection direction="right"> */}
       <div className='flex flex-col p-4 justify-center w-full mx-auto h-full' data-aos="fade-up"
                 data-aos-delay="200">
-        <div>
+        <div className='items-center justify-center flex flex-col '>
             <p className='text-4xl font-bold inline border-b-4 border-gray-500 '>Contact</p>
             <p className='py-6'>Submit the form to get in touch with me </p>
         </div>
