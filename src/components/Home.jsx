@@ -1,5 +1,5 @@
 import React from "react";
-import my from "../assets/MyImage.jpg";
+import my from "../assets/MyImage-1.png";
 import AnimatedSection from './AnimatedSection';
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { Link } from 'react-scroll';
@@ -28,8 +28,8 @@ const Home = () => {
             <img 
               src={my} 
               alt="My personal image" 
-              className="rounded-2xl w-[400px] sm:w-[550px] md:w-[650px] lg:w-[750px] h-auto  shadow-[0_0_20px_4px_rgba(253,224,71,0.6)] mt-14 " 
-              style={{ maxWidth: '750px', maxHeight: '600px' }} 
+              className="rounded-2xl w-[490px] sm:w-[550px] md:w-[650px] lg:w-[870px] h-[450px] lg:h-[600px] lg:-mt-4 " 
+              style={{maxWidth: '750px', maxHeight: '600px' }} 
             />
           </div>
         </div>
