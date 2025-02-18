@@ -9,7 +9,7 @@ const About = () => {
     },
     {
       id: 2,
-      text: "I specialize in utilizing modern web technologies such as HTML, CSS, JavaScript, and React to build responsive and dynamic web applications. My goal is to craft seamless user experiences that not only look great but also function flawlessly.",
+      text: "I specialize in utilizing modern web technologies such as CSS, Tailwind CSS, JavaScript, TypeScript, React and Next.js to build responsive and dynamic web applications. My goal is to craft seamless user experiences that not only look great but also function flawlessly.",
     },
     {
       id: 3,
@@ -29,7 +29,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full min-h-screen bg-gradient-to-b from-gray-700 via-black to-yellow-400 text-white pt-32 pb-16 "
+      className="w-full min-h-screen bg-gradient-to-b from-gray-700 via-black to-yellow-400 text-white md:pt-32 pt-64 pb-16 "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full">
         <div className="pb-8">
