@@ -48,7 +48,7 @@ const Portfolio = () => {
   return (
     <div
   name="portfolio"
-  className="bg-gradient-to-b from-yellow-400 via-black to-gray-700 w-full text-white md:h-screen pt-20"
+  className="bg-gradient-to-b from-yellow-400 via-black to-gray-700 w-full text-white  md:h-screen pt-20"
 >
   <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
     <div className="pb-8">
@@ -57,7 +57,7 @@ const Portfolio = () => {
       </p>
       <p className="py-6">Check Out some of my work right here</p>
     </div>
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-4 sm:px-0 justify-center">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:px-4 m-auto justify-center">
       {portfolios.map(({ id, src, href, link }) => (
         <div
           key={id}
