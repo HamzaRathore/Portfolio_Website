@@ -13,7 +13,7 @@ const Home = () => {
             <h2 className="text-4xl sm:text-7xl font-bold text-white">I'm a Front End Developer</h2>
             <p className="text-gray-400 py-4 max-w-md">
               Specializing in creating seamless, interactive user experiences with
-              HTML, CSS, Tailwind, JavaScript, and React.
+               CSS, Tailwind CSS, JavaScript, TypeScript, React and Next.Js.
             </p>
             <div>
               <Link to="portfolio" smooth duration={500} className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-black to-gray-700 cursor-pointer">
