@@ -6,12 +6,12 @@ import { Link } from 'react-scroll';
 
 const Home = () => {
   return (
-    <div name="home" className="h-screen w-full bg-gradient-to-b from-yellow-400 via-black to-gray-700 pt-28 overflow-hidden">
+    <div name="home" className="h-screen w-full bg-gradient-to-b from-yellow-400 via-black to-gray-700 pt-28 md:pl-48 md:pt-52 lg:pt-36 overflow-hidden">
       <AnimatedSection direction="left">
         <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-5 md:flex-row">
-          <div className="flex flex-col justify-center h-full md:mr-16">
-            <h2 className="text-4xl sm:text-7xl font-bold text-white">I'm a Front End Developer</h2>
-            <p className="text-gray-400 py-4 max-w-md">
+          <div className="flex flex-col justify-center h-full  md:mr-16">
+            <h2 className="text-4xl sm:text-7xl font-bold md:text-5xl lg:text-7xl text-white">I'm a Front End Developer</h2>
+            <p className="text-gray-400 md:text-xl lg:text-3xl py-4 max-w-md">
               Specializing in creating seamless, interactive user experiences with
                CSS, Tailwind CSS, JavaScript, TypeScript, React and Next.Js.
             </p>
@@ -28,7 +28,7 @@ const Home = () => {
             <img 
               src={my} 
               alt="My personal image" 
-              className="rounded-2xl w-[490px] sm:w-[550px] md:w-[650px] lg:w-[870px] h-[450px] lg:h-[600px] lg:-mt-4 " 
+              className="rounded-2xl w-[490px] sm:w-[550px] md:w-[650px] lg:w-[870px] 2xl:w-[1024px] md:pr-16 h-[450px] lg:h-[600px] lg:-mt-4 " 
               style={{maxWidth: '750px', maxHeight: '600px' }} 
             />
           </div>
