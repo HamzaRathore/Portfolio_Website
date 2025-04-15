@@ -6,7 +6,10 @@ import javascript from "../assets/javascript.png";
 import react from "../assets/react.png";
 import github from "../assets/github.png";
 import typeScript from "../assets/typescript.png";
-import Next from "../assets/Next.png";
+import Next from "../assets/next.png";
+import Nodejs from "../assets/nodejs.png";
+import Mongodb from "../assets/Mongodb.png";
+import Expressjs from "../assets/Expressjs.png";
 import Firebase from "../assets/firebase.png";
 import AnimatedSection from './AnimatedSection';
 const Experience = () => {
@@ -17,6 +20,7 @@ const Experience = () => {
       title: "HTML",
       style: "shadow-orange-500",
     },
+    
     {
       id: 2,
       src: css,
@@ -43,24 +47,42 @@ const Experience = () => {
     },
     {
       id: 6,
+      src: Mongodb,
+      title: "Mongodb",
+      style: "shadow-green-600",
+    },
+    {
+      id: 7,
+      src: Expressjs,
+      title: "Expressjs",
+      style: "shadow-black",
+    },
+    {
+      id: 8,
       src: react,
       title: "React",
       style: "shadow-blue-600",
     },
     {
-      id: 7,
+      id: 9,
+      src: Nodejs,
+      title: "Nodejs",
+      style: "shadow-green-600",
+    },
+    {
+      id: 10,
       src: Next,
       title: "Next.Js",
       style: "shadow-gray-600",
     },
     {
-      id: 8,
+      id: 11,
       src: Firebase,
       title: "Firebase",
       style: "shadow-orange-600",
     },
     {
-      id: 9,
+      id: 12,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
@@ -81,7 +103,7 @@ const Experience = () => {
           <p className="py-6">These are the technologies I've worked with</p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0  ">
+        <div className="w-full grid grid-cols-2 md:grid-cols-4 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0  ">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
