@@ -6,7 +6,7 @@ import javascript from "../assets/javascript.png";
 import react from "../assets/react.png";
 import github from "../assets/github.png";
 import typeScript from "../assets/typescript.png";
-import Next from "../assets/next.png";
+import Next from "../assets/Next.png";
 import Nodejs from "../assets/nodejs.png";
 import Mongodb from "../assets/Mongodb.png";
 import Expressjs from "../assets/Expressjs.png";
