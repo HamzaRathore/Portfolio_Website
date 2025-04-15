@@ -5,19 +5,19 @@ const About = () => {
   const paragraphs = [
     {
       id: 1,
-      text: "Hello! I'm Hamza Rathore, a passionate front-end developer with a Bachelor's degree in Software Engineering (BSSE) from the University of Central Punjab. My journey in technology began during my studies, where I developed a keen interest in creating intuitive and engaging user interfaces.",
+      text: "Hello! I'm Hamza Rathore, a passionate MERN Stack Developer with a Bachelor's degree in Software Engineering (BSSE) from the University of Central Punjab. My journey into development started during my academic years, where I discovered a love for crafting intuitive and modern web applications.",
     },
     {
       id: 2,
-      text: "I specialize in utilizing modern web technologies such as CSS, Tailwind CSS, JavaScript, TypeScript, React and Next.js to build responsive and dynamic web applications. My goal is to craft seamless user experiences that not only look great but also function flawlessly.",
+      text: "I specialize in building full-stack applications using the MERN stack — MongoDB, Express.js, React.js, and Node.js. On the frontend, I use technologies like Tailwind CSS, TypeScript, and Next.js to design responsive and interactive user experiences.",
     },
     {
       id: 3,
-      text: "During my academic career, I worked on various projects that honed my skills in both front-end development and problem-solving. I am continuously exploring new technologies and frameworks to enhance my capabilities and stay up-to-date with industry trends.",
+      text: "During my academic career, I worked on various projects that strengthened my problem-solving skills and deepened my understanding of both frontend and backend technologies. These experiences helped me build clean, efficient, and scalable web solutions.",
     },
     {
       id: 4,
-      text: "As a front-end developer, I thrive on transforming ideas into reality and collaborating with others to deliver high-quality digital solutions. I'm excited to take on new challenges and contribute to innovative projects that make a difference. I am continuously exploring new technologies and frameworks to enhance my capabilities and stay up-to-date with industry trends.",
+      text: "I'm constantly learning and exploring new tools, frameworks, and design patterns to stay aligned with modern development practices. I enjoy collaborating with others, transforming ideas into working applications, and contributing to meaningful digital solutions.",
     },
     {
       id: 5,
@@ -25,6 +25,7 @@ const About = () => {
       className: "italic font-medium text-gray-300",
     },
   ];
+  
 
   return (
     <div
