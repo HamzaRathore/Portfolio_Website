@@ -12,7 +12,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="bg-gradient-to-b from-yellow-400 via-black to-gray-700 p-4 text-white pt-56 md:pt-28 lg:pt-28 "
+      className="bg-gradient-to-b from-yellow-400 via-black to-gray-700 p-4 text-white pt-80 md:pt-28 lg:pt-28 "
     >
       {/* <AnimatedSection direction="right"> */}
       <div
