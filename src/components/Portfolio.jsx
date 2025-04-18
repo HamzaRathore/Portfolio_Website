@@ -4,7 +4,7 @@ import car from "../assets/portfolio/rent-car.png";
 import commerce from "../assets/portfolio/e-commerce.png";
 import grocery from "../assets/portfolio/Grocery.png";
 import baywatch from "../assets/portfolio/BayWatch.png";
-import weather from "../assets/portfolio/reactWeather.jpg";
+import book from "../assets/portfolio/book.png";
 import AnimatedSection from "./AnimatedSection";
 
 const Portfolio = () => {
@@ -40,8 +40,9 @@ const Portfolio = () => {
     },
     {
       id: 6,
-      src: weather,
-      href: "https://github.com/HamzaRathore",
+      src: book,
+      href: "https://github.com/HamzaRathore/TheReadingNook",
+      link: "https://the-reading-nook.vercel.app/"
     },
   ];
 
