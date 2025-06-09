@@ -5,14 +5,16 @@ import commerce from "../assets/portfolio/e-commerce.png";
 import grocery from "../assets/portfolio/Grocery.png";
 import baywatch from "../assets/portfolio/BayWatch.png";
 import book from "../assets/portfolio/book.png";
+import Colorpicker from "../assets/portfolio/Color-picker.png";
 import AnimatedSection from "./AnimatedSection";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: gym,
-      href: "https://github.com/HamzaRathore/Gym_Website",
+      src: Colorpicker,
+      href: "https://github.com/HamzaRathore/SVG-Color-Picker",
+      link: "https://svg-color-picker.netlify.app/",
     },
     {
       id: 2,
