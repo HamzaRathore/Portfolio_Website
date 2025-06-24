@@ -5,6 +5,7 @@ import commerce from "../assets/portfolio/e-commerce.png";
 import grocery from "../assets/portfolio/Grocery.png";
 import baywatch from "../assets/portfolio/BayWatch.png";
 import book from "../assets/portfolio/book.png";
+import calculator from "../assets/portfolio/calculator.png";
 import Colorpicker from "../assets/portfolio/Color-picker.png";
 import AnimatedSection from "./AnimatedSection";
 
@@ -24,9 +25,9 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: commerce,
-      href: "https://github.com/HamzaRathore/e-commerce-redux-toolkit",
-      link: "https://e-commerce-redux-toolkit.netlify.app/",
+      src: calculator,
+      href: "https://github.com/HamzaRathore/CalcPro",
+      link: "https://calcproo.netlify.app/",
     },
     {
       id: 4,
